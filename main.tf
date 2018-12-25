@@ -1,4 +1,4 @@
-# Download the latest Ghost image
+# Download the latest Ghost image Hello
 module "image" {
   source = "./image"
   image = "${lookup(var.image, var.env)}"
